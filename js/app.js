@@ -2,6 +2,8 @@ $(document).ready(function () {
 
     //User selects "paper"
     $('#paperB').one("click", function () {
+        $('.rules').hide();
+        $('.computer').hide();
         $('.paperP').fadeIn('slow');
         compChoice();
         $('.makeChoice').hide();
@@ -18,6 +20,8 @@ $(document).ready(function () {
 
     //User selects "rock"
     $('#rockB').one("click", function () {
+        $('.rules').hide();
+        $('.computer').hide();
         $('.rockP').fadeIn('slow');
         compChoice();
         $('.makeChoice').hide();
@@ -34,6 +38,8 @@ $(document).ready(function () {
 
     //User selects "scissors"
     $('#scissorsB').one("click", function () {
+        $('.rules').hide();
+        $('.computer').hide();
         $('.scissorsP').fadeIn('slow');
         compChoice();
         $('.makeChoice').hide();

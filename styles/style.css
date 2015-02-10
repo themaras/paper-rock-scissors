@@ -344,7 +344,7 @@ h1 {
     top: 13px;
     left: 0;
 }
-.paperP, .rockP, .scissorsP {
+.paperP, .rockP, .scissorsP, .rules {
     width: 334px;
     height: 321px;
 }
@@ -369,7 +369,7 @@ h1 {
     background-repeat: no-repeat;
     margin: 0 auto;
 }
-.paperC, .rockC, .scissorsC {
+.paperC, .rockC, .scissorsC, .computer {
     width: 334px;
     height: 321px;
 }
@@ -393,4 +393,37 @@ h1 {
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 0 auto;
+}
+
+.rules {
+    background-image: url('../images/rules.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    top: 23px;
+    left: 9px;
+}
+
+.computer {
+    background-image: url('../images/computer.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    top: 28px;
+    left: -17px;
+    width:355px;
+}
+
+.player {
+position: relative;
+top: 13px;
+left: -152px;
+}
+
+.machine {
+position: relative;
+top: -3px;
+left: 160px;
 }
