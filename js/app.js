@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     //User selects "paper"
     $('#paperB').one("click", function () {
-        $('.paperP').show();
+        $('.paperP').fadeIn('slow');
         compChoice();
         $('.makeChoice').hide();
         if (computerChoice === "rock") {
@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     //User selects "rock"
     $('#rockB').one("click", function () {
-        $('.rockP').show();
+        $('.rockP').fadeIn('slow');
         compChoice();
         $('.makeChoice').hide();
         if (computerChoice === "scissors") {
@@ -34,7 +34,7 @@ $(document).ready(function () {
 
     //User selects "scissors"
     $('#scissorsB').one("click", function () {
-        $('.scissorsP').show();
+        $('.scissorsP').fadeIn('slow');
         compChoice();
         $('.makeChoice').hide();
         if (computerChoice === "paper") {
@@ -54,13 +54,13 @@ $(document).ready(function () {
     function compChoice() {
         if (computerChoice < 0.34) {
             computerChoice = "rock";
-            $('.rockC').show();
+            $('.rockC').fadeIn('slow');
         } else if (computerChoice <= 0.67) {
             computerChoice = "paper";
-            $('.paperC').show();
+            $('.paperC').fadeIn('slow');
         } else {
             computerChoice = "scissors";
-            $('.scissorsC').show();
+            $('.scissorsC').fadeIn('slow');
         }
         console.log("Computer: " + computerChoice);
     }

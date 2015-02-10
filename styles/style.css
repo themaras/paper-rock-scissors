@@ -77,7 +77,7 @@ h1 {
 ---------------------------------------------------------------------------------*/
  .game {
     position: relative;
-    background-color: brown;
+    background-color: #179fa3;
     width: 810px;
     height: 380px;
     -webkit-border-radius: 4px;
@@ -390,18 +390,6 @@ h1 {
 }
 .scissorsC {
     background-image: url('../images/scissors.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-}
-.blankP {
-    background-image: url('../images/Blank.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-}
-.blankC {
-    background-image: url('../images/Blank.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 0 auto;
